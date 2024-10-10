@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+body {
+  background-color: rgb(190, 75, 94);
+  font-family: "Caveat", cursive;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+}
